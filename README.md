@@ -24,15 +24,15 @@ For auto-generating getters and setters
  To unserialize dates from JSON in a particular format (e.g. dd-MM-yyyy HH:mm:ss), create a Gson object by specifying the date format  
  
 	Gson gson = new GsonBuilder()
-					.setDateFormat("dd-MM-yyyy HH:mm:ss")
-					.create();
+			.setDateFormat("dd-MM-yyyy HH:mm:ss")
+			.create();
 		
  Use the Gson object when creating the GsonConverterFactory	for use in Retrofit
 		
 	Retrofit retrofit = new Retrofit.Builder()
-							.baseUrl("http://localhost:8080/")							
-							.addConverterFactory(GsonConverterFactory.create(gson))
-							.build();
+			.baseUrl("http://localhost:8080/")							
+			.addConverterFactory(GsonConverterFactory.create(gson))
+			.build();
 							
 ### Extra
 
