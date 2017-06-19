@@ -30,9 +30,9 @@ For auto-generating getters and setters
  Use the Gson object when creating the GsonConverterFactory	for use in Retrofit
 		
 	Retrofit retrofit = new Retrofit.Builder()
-			.baseUrl("http://localhost:8080/")							
-			.addConverterFactory(GsonConverterFactory.create(gson))
-			.build();
+				.baseUrl("http://localhost:8080/")							
+				.addConverterFactory(GsonConverterFactory.create(gson))
+				.build();
 							
 ### Extra
 
