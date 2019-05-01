@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/ocinpp/retrofit-rest-quotes/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/ocinpp/retrofit-rest-quotes?targetFile=pom.xml)
+
 ## Description
 
 A demo project to show how to get random quotes from a REST API [http://gturnquist-quoters.cfapps.io](http://gturnquist-quoters.cfapps.io) using Retrofit
