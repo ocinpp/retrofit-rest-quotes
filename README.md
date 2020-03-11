@@ -1,5 +1,6 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/ocinpp/retrofit-rest-quotes/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/ocinpp/retrofit-rest-quotes?targetFile=pom.xml)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Focinpp%2Fretrofit-rest-quotes.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Focinpp%2Fretrofit-rest-quotes?ref=badge_shield)
+# Retrofit REST Quote Sample
 
+[![Known Vulnerabilities](https://snyk.io/test/github/ocinpp/retrofit-rest-quotes/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/ocinpp/retrofit-rest-quotes?targetFile=pom.xml)
 
 ## Description
 
@@ -45,7 +46,3 @@ To apply a format to dates when serializing to  JSON using Jackson
 
 	@JsonFormat(pattern="dd-MM-yyyy HH:mm:ss", timezone="Asia/Hong_Kong")
 	private java.util.Date myDate;							
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Focinpp%2Fretrofit-rest-quotes.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Focinpp%2Fretrofit-rest-quotes?ref=badge_large)
